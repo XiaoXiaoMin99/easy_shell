@@ -5,7 +5,7 @@ BOOTIMAGE=$1
 KEEPVERITY=true
 KEEPFORCEENCRYPT=true
 RECOVERYMODE=false
-filename=magisk.apk
+filename=magisk22.1.apk
 ######
 [ -f $filename ] || wget https://github.com/topjohnwu/Magisk/releases/download/v22.0/Magisk-v22.0.apk -O $filename
 [ -z $1 ] && { echo "Usage: $0 <boot.img>" && exit 1 ;}
